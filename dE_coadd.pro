@@ -1,4 +1,5 @@
 PRO dE_coadd, infits
+; Executes the spectral co-addition with inverse variance weighting technique.
 ;read in the *colorBinning files
 infits = 'dE_cleanSample_0.65_rebinnedSample.fits'
 s = mrdfits(infits,1,/SILENT)
